@@ -936,7 +936,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Users/igneriilla/Desktop/desktop-folders/UT-coding/Next.JS-Apps/zoe-office/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Users/igneriilla/Desktop/desktop-folders/UT-coding/Next.JS-Apps/zoe-office/Zoe-Office/.next");
       return error;
     }
   };
