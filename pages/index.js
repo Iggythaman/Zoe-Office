@@ -1,11 +1,10 @@
 import Layout from "../components/Layout";
+import Form from "../components/Form";
 
 export default function Index() {
   return (
     <Layout>
-      <div>
-        <p>Home page</p>
-      </div>
+      <Form />;<p>Home page</p>
     </Layout>
   );
 }
